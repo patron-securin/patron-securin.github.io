@@ -608,7 +608,6 @@ span{
 .statistics div{
 	position: relative;
 	z-index: 1;
-	transform: translateZ(-1px);
 	display: inline-block;
 	width: 310px;
 	margin:158px 0px 95px 0px;
