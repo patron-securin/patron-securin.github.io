@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Это моя первая страница">
-	<meta name="author" content="Pavel">
+	<meta name="author" content="Pavel Mironov">
 	<meta name="keywords" content="сайт визитка">
 	<meta name="robots" content="noindex, follow">
 
@@ -13,85 +13,101 @@
 	<title>Андрей Браун</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.min.css">
 </head>
 
 
-
 <body>
+	<div class="cssload-container">
+		<div class="cssload-whirlpool"></div>
+	</div>
+
 	<header>
 		<nav>
 			<div class="logo">Андрей Браун</div>
-			<div class="menu"><ul>
-				<li>Обо мне</li>
-				<li>Услуги</li>
-				<li>Кейсы</li>
-				<li>Прайс</li>
-				<li>Отзывы</li>
-				<li>Контакты</li>
-			</ul></div>
+			<div class="menu">
+				<ul>
+					<li><a href="#">Обо мне</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Кейсы</a></li>
+					<li><a href="#">Прайс</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
 		</nav>
 	</header>
+	<main>
+		<section class="intro">
+			<div class="title_container">
+				<h1>Привет <br>Я Андрей Браун</h1>
+				<h4>Фуллстек веб-разработчик и Android-разработчик</h4>
+				<input type="button" value="Обо мне">
+				<input type="button" value="Мои работы">
+			</div>
+		</section>
 
-	<div class="main"><div class="title_container">
-		<h1>Привет <br>Я Андрей Браун</h1>
-		<h4>Фуллстек веб-разработчик и Android-разработчик</h4>
-		<p><input type="submit" value="Обо мне">
-		<input type="submit" value="Мои работы"></p></div>
-	</div>
-
-	<div class="me">
+	<section class="me">
 		<h2>обо мне</h2>
 		<div class="line">
-			<img src="../img/черта_заголовка.png"></div>
-		<img src="../img/фотка.png" alt="фотка">
+			<img src="C:\Users\User\Desktop\New_project\src\img\черта_заголовка.png"></div>
+		<img src="C:\Users\User\Desktop\New_project\src\img\фотка.png" alt="фотка">
 		<p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quas exercitationem ducimus reprehenderit, quibusdam velit quasi quidem, tenetur deserunt quae.</span></p>
 		<p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quas exercitationem ducimus reprehenderit, quibusdam velit quasi quidem, tenetur deserunt quae.</span></p>
 		<input type="submit" value="Скачать резюме">
-	</div>
+	</section>
 
-	<div class="skills">
-		<h2>ЧТО Я УМЕЮ</h2>
-		<div class="line">
-			<img src="../img/черта_заголовка.png"></div>
-		<div class="veb_design">
-			<img src="../img/ноут.png" alt="ноут">
-			<h4>Веб-дизайн</h4>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Officiis, recusandae.</p></div>
-		<div class="development">
-			<img src="../img/знак.png" alt="знак">
-			<h4>Разработка</h4>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Eaque, ullam.</p></div>
-		<div class="SEO-optimization">
-			<img src="../img/ракета.png" alt="ракета">
-			<h4>СЕО-Оптимизация</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Unde, sunt!</p></div>
-		<div class="Marketing">
-			<img src="../img/граммофон.png" alt="граммофон">
-			<h4>Маркетинг</h4>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, distinctio.</p></div>
-	</div>
+	<section class="skills">
+		<section class='parallax_skills'>
+			<h2>ЧТО Я УМЕЮ</h2>
+			<section class="line_skills">
+			<img src="C:\Users\User\Desktop\New_project\src\img\черта_заголовка.png">
+			</section>
+			<div class="veb_design">
+				<img src="C:\Users\User\Desktop\New_project\src\img\ноут.png" alt="ноут">
+				<h4>Веб-дизайн</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Officiis, recusandae.</p></div>
+			<div class="development">
+				<img src="C:\Users\User\Desktop\New_project\src\img\знак.png" alt="знак">
+				<h4>Разработка</h4>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Eaque, ullam.</p></div>
+			<div class="SEO-optimization">
+				<img src="C:\Users\User\Desktop\New_project\src\img\ракета.png" alt="ракета">
+				<h4>СЕО-Оптимизация</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Unde, sunt!</p></div>
+			<div class="Marketing">
+				<img src="C:\Users\User\Desktop\New_project\src\img\граммофон.png" alt="граммофон">
+				<h4>Маркетинг</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, distinctio.</p></div>
+		</section>
+	</section>
 
-	<div class="cases">
+	<section class="cases">
 		<h2>кейсы</h2>
 		<div class="line">
-			<img src="../img/черта_заголовка.png"></div>
-		<span>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Eaque, ipsum!</span>
-		<img src="../img/фотка1.png" alt="фотка1">
-		<div class="left_column">
-			<div class="client">
-				<h4>CLIENT:</h4>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, eaque.</p></div>
-			<div class="WEBSITE">
-				<h4>WEBSITE:</h4>
-				<p>http://www.somedomain.com</p></div>
+			<img src="C:\Users\User\Desktop\New_project\src\img\черта_заголовка.png"></div>
+		<div class="cases_head">
+			<p><span>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Eaque, ipsum!</span></p>
+			<img src="C:\Users\User\Desktop\New_project\src\img\фотка1.png" alt="фотка1">
 		</div>
-		<div class="project_name">
-			<h4>Название проекта</h4>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Suscipit quasi dicta laborum cupiditate, atque architecto saepe. Ab, corporis sed distinctio accusantium excepturi, impedit quasi consectetur adipisci, debitis cumque repellendus est.</p></div>
-		<input type="submit" value="VISIT LIVE SITE">
-	</div>
+		<div class="columns">
+			<div class="left_column">
+				<div class="client">
+					<h4>CLIENT:</h4>
+					<p>Какая-то компания</p></div>
+				<div class="WEBSITE">
+					<h4>WEBSITE:</h4>
+					<p><a href="http://www.somedomain.com">http://www.somedomain.com</a></p></div>
+				<div class="visit">
+					<input type="submit" value="VISIT LIVE SITE"></div>
+			</div>
+			<div class="project_name">
+				<h4>Название проекта</h4>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Suscipit quasi dicta laborum cupiditate, atque architecto saepe. Ab, corporis sed distinctio accusantium excepturi, impedit quasi consectetur adipisci, debitis cumque repellendus est.</p></div>
+		</div>
+	</section>
 
-	<div class="cost_calculation">
+	<section class="cost_calculation">
 		<h2>Расчет стоимости</h2>
 		<h3>тип сайта</h3>
 		<select>
@@ -105,54 +121,58 @@
 		<select>
 			<option value="value3">Выберите пункт...</option>
 		</select>
-		<p>Сроки</p>
-		<p>Стоимость</p>
-	</div>
+		<div class="strings">
+			<p>Сроки</p>
+			<p>Стоимость</p>
+		</div>
+	</section>
 
-	<div class="statistics">
+	<section class="statistics">
 		<h2>немного статистики</h2>
-		<div class="line">
-			<img src="../img/черта_заголовка.png"></div>
+		<section class="line_statistic">
+			<img src="C:\Users\User\Desktop\New_project\src\img\черта_заголовка.png"></section>
 		<div class="clients">
-			<img src="../img/смайл.png" alt="смайл">
+			<img src="C:\Users\User\Desktop\New_project\src\img\смайл.png" alt="смайл">
 			<h4>120</h4>
 			<p>Счастливых клиентов</p></div>
 		<div class="time">
-			<img src="../img/скобки.png" alt="скобки">
+			<img src="C:\Users\User\Desktop\New_project\src\img\скобки.png" alt="скобки">
 			<h4>4,600</h4>
 			<p>Часов работ</p></div>
 		<div class="projects">
-			<img src="../img/галочка.png" alt="галочка">
+			<img src="C:\Users\User\Desktop\New_project\src\img\галочка.png" alt="галочка">
 			<h4>340</h4>
 			<p>Проектов завершено</p></div>
 		<div class="award">
-			<img src="../img/кубок.png" alt="кубок">
+			<img src="C:\Users\User\Desktop\New_project\src\img\кубок.png" alt="кубок">
 			<h4>23</h4>
 			<p>Наград получено</p></div>
-	</div>
+	</section>
 
-	<div class="feedback">
+	<section class="feedback">
 		<h2>отзывы</h2>
 		<div class="line">
-			<img src="../img/черта_заголовка.png"></div>
-		<img src="../img/фотка2.png" alt="фотка2">
-		<p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus id blanditiis unde perferendis magnam sunt perspiciatis architecto pariatur, earum voluptates!</span></p>
-		<p><span><b>Михаил</b>, Ген директор ПАО "Газпром"</span></p></div>
-
+			<img src="C:\Users\User\Desktop\New_project\src\img\черта_заголовка.png"></div>
+		<img src="C:\Users\User\Desktop\New_project\src\img\фотка2.png" alt="фотка2">
+		<div class="string_feedback">
+			<p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus id blanditiis unde perferendis magnam sunt perspiciatis architecto pariatur, earum voluptates!</span></p>
+			<p><span><b>Михаил</b>, Ген директор ПАО "Газпром"</span></p>
+		</div>
+	</section>
 	<div class="contacts"><div class="my_contacts">
 		<h2>мои контакты</h2>
 		<div class="line">
-			<img src="../img/черта_заголовка.png"></div>
+			<img src="C:\Users\User\Desktop\New_project\src\img\черта_заголовка.png"></div>
 		<p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, vitae?</span></p>
 		<div class="adress">
-			<img src="../img/гео.png" alt="гео">
+			<img src="C:\Users\User\Desktop\New_project\src\img\гео.png" alt="гео">
 			<p>Санкт-Петербург <br>
 			Невский проспект 11</p></div>
 		<div class="mail">
-			<img src="../img/конверт.png" alt="конверт">
+			<img src="C:\Users\User\Desktop\New_project\src\img\конверт.png" alt="конверт">
 			<p>info@companyname.com</p></div>
 		<div class="telephone">
-			<img src="../img/труба.png" alt="труба">
+			<img src="C:\Users\User\Desktop\New_project\src\img\труба.png" alt="труба">
 			<p>+7999999-99-99</p></div>
 		</div>
 		<div class="send_message">
@@ -162,20 +182,22 @@
 			<p><textarea name="message" id="3" placeholder="Сообщение"></textarea></p></div>
 			<div class="send">
 				<p><input type="submit" value="Отправить"></p></div>
-			<img src="../img/фб.png" alt="фб">
-			<img src="../img/твитер.png" alt="твитер">
-			<img src="../img/мяч.png" alt="мяч">
-			<img src="../img/киса.png" alt="киса">
-			<img src="../img/инст.png" alt="инст">
-			<img src="../img/ин.png" alt="ин">
-	</div>
-	<div class="map">
-		<input name="here" placeholder="I'M HERE">
-	</div>
-	<div class="low_navy">
+			<img src="C:\Users\User\Desktop\New_project\src\img\фб.png" alt="фб">
+			<img src="C:\Users\User\Desktop\New_project\src\img\твитер.png" alt="твитер">
+			<img src="C:\Users\User\Desktop\New_project\src\img\мяч.png" alt="мяч">
+			<img src="C:\Users\User\Desktop\New_project\src\img\киса.png" alt="киса">
+			<img src="C:\Users\User\Desktop\New_project\src\img\инст.png" alt="инст">
+			<img src="C:\Users\User\Desktop\New_project\src\img\ин.png" alt="ин">
+	</section>
+
+	<section class="map">
+		<p><input name="here" placeholder="I'M HERE"></p>
+	</section>
+	<footer class="low_navy">
 		<span>Copyright © 2021 Андрей Браун. Design by Web</span>
-	</div>
+	</footer>
 	
+	</main>
 
 </body>
 </html>
