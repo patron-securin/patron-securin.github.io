@@ -208,7 +208,6 @@ span{
 	color: #2c384a;
 	text-align: center;
 	opacity: 0;
-	float: left;
 	-webkit-animation: titlemove 1s ease forwards;
 	-o-animation: titlemove 1s ease forwards;
 	animation: titlemove 1s ease forwards;
